@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Stack Interpreter - Gui Taglietti</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <header class="parent-menu">
+        <nav class="menu">
+            <div class="menu-items">
+                <h3 class="menu-item"><a href="https://github.com/GuiTaglietti" target="_blank">GitHub</a></h3>
+                <h3 class="menu-item"><a href="about.html">Sobre</a></h3>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="div-form">
+            <form>
+                <label for="pilha">Pilha</label><br>
+                <br>
+                <input type="text" id="stack" readonly class="stackStyle"><br>
+                <br>
+                <label for="memoria">Memória modificada</label><br>
+                <br>
+                <textarea id="mem-reg" cols="30" rows="10" readonly class="textareaStyle"></textarea><br>
+                <br>
+                <label for="instrucao">Instrução</label><br>
+                <br>
+                <input type="text" id="inst" placeholder="Digite a instrução..." class="instructionStyle"><br>
+                <br>
+            </form>
+            <button class="buttonStyle" id="button">Executar instrução</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <h4 class="center-footer-text">Developed by - Gui Taglietti</h4>
+    </footer>
+
+    <script src='assets.js'></script> 
+</body>
+
+</html>
