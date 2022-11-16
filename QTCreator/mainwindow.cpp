@@ -9,13 +9,12 @@
 #include <string>
 #include <sstream>
 #include <vector>
+#include <cstdlib>
 #ifdef _WIN32
 #include <Windows.h>
 #else
 #include <unistd.h>
 #endif
-#include <iostream>
-#include <cstdlib>
 using namespace std;
 
 MainWindow::MainWindow(QWidget *parent)
