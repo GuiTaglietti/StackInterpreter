@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.parent-menu {
+    display: flex;
+    margin: 10px;
+    border-bottom: white solid 2px;
+}
+
+.menu {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.menu-item {
+    margin-left: 40px;
+}
+
+.menu-items {
+    display: inline-flex;
+}
+
+.menu-items a {
+    color: black;
+}
+
+.menu-items a:hover {
+    color: white;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    border-top: white solid 2px;
+}
+
+.footer h4 {
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.footer h4:hover {
+    color: white;
+}
+
+.stackStyle {
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: white solid 1px;
+    box-shadow: 3px 5px;
+}
+
+.textareaStyle {
+    border-radius: 5px;
+    border: white solid 1px;
+    box-shadow: 3px 5px;
+}
+
+.instructionStyle {
+    border-radius: 5px;
+    border: white solid 1px;
+    box-shadow: 3px 5px;
+    height: 25px;
+}
+
+.buttonStyle {
+    border-radius: 5px;
+    border: white solid 1px;
+    box-shadow: 3px 5px;
+}
+
+.containerAbout {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText {
+    color: white;
+}
+
+.aboutText h1 {
+    margin-bottom: 10px;
+}
+
+.aboutText span {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.aboutText p {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.aboutText img {
+    border: black 2px solid;
+}
