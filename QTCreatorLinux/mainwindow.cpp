@@ -122,7 +122,7 @@ public:
     void checkOverflow(QWidget *parent){
         if(this->size > 14){
             QMessageBox::about(parent, "Error", "STACK OVERFLOW!");
-            Sleep(2000);
+            sleep(2000);
             throw underflow_error("STACK OVERFLOW");
         }
     }
@@ -130,7 +130,7 @@ public:
     void checkUnderflow(QWidget *parent){
         if(this->size < 0){
             QMessageBox::about(parent, "Error", "STACK UNDERFLOW!");
-            Sleep(2000);
+            sleep(2000);
             throw underflow_error("STACK OVERFLOW");
         }
     }
@@ -201,7 +201,7 @@ public:
         float aux1 = this->pop(parent);
         if(aux1 == 0){
             QMessageBox::about(parent, "Error", "DIVIDE BY ZERO!");
-            Sleep(2000);
+            sleep(2000);
             throw runtime_error("DIVIDE BY ZERO ERROR");
         }
         float aux2 = this->pop(parent);
@@ -227,7 +227,7 @@ public:
 
     void hlt(QWidget *parent){
         QMessageBox::about(parent, "HLT Function", "A pilha e a memória serão mostradas por 5 segundos até o término do programa!");
-        Sleep(5000);
+        sleep(5000);
         this->clearStack();
         QMessageBox::about(parent, "HLT Function", "Pilha e memória esvaziadas!");
     }
