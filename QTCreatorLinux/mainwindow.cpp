@@ -292,7 +292,7 @@ void MainWindow::on_pushButton_clicked()
     if(machine.handleErrors(index, this)){
         switch(index){
             case 0:
-                machine.push(stof(parsed[1]), this);
+                machine.push(QString::toStdString(parsed[1]).toFloat(), this);
                 machine.showStack(this->ui->lineEdit_2);
                 break;
 
