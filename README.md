@@ -7,5 +7,3 @@ I also did the console aplication, but of course, i made a QT desktop aplication
 Special thanks to Marcos José Brusso, mastermind of the discipline. He helped me a lot on every single question, for sure i've learned a lot doing all this stuff!
 
 Enjoy all the content!
-
-By: Gui Taglietti
