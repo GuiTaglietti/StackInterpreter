@@ -213,7 +213,6 @@ class Machine extends Operations{
 
     solveInstruction(instruction){
         let parsed = this.parseInstruction(instruction);
-        let key = "0123456789."
         switch(parsed[0].toLowerCase()){
             case "pushi":
                 this.pushElement(parsed[1]);
@@ -232,6 +231,10 @@ class Machine extends Operations{
 
             case "input":
                 this.input();
+                break;
+                
+            case "print":
+                this.print();
                 break;
 
             case "add":
